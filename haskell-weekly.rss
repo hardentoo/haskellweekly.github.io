@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Haskell Weekly</title>
+    <link>https://haskellweekly.news</link>
+    <description></description>
+    <atom:link rel="self" href="https://haskellweekly.news/haskell-weekly.rss" />
+
+    <item>
+  <guid>https://haskellweekly.news/issues/77.html</guid>
+  <title>Issue 77</title>
+  <link>https://haskellweekly.news/issues/77.html</link>
+  <pubDate>Thu, 19 Oct 2017 00:00:00 GMT</pubDate>
+  <description>&lt;p>Welcome to another issue of Haskell Weekly!
+Haskell is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.&lt;/p>
+&lt;p>Want to see something featured in Haskell Weekly?
+We love contributions!
+Tweet us at &lt;a href="https://twitter.com/haskellweekly">@HaskellWeekly&lt;/a> or &lt;a href="https://github.com/haskellweekly/haskellweekly.github.io">open a pull request&lt;/a>.&lt;/p>
+&lt;h2>Featured&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://simonmar.github.io/posts/2017-10-17-hotswapping-haskell.html">Hotswapping Haskell&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>It’s like driving a car down the road, having a new engine fall into your lap, installing it on-the-fly, and dumping the old engine behind you, all while never touching the brakes.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.haskellforall.com/2017/10/advice-for-haskell-beginners.html">Advice for Haskell beginners&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Hopefully these tips will help provide some guard rails for learning the language for the first time. That’s not to say that Haskell is perfect, but I think you will enjoy the language if you avoid these common beginner pitfalls.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://profsjt.blogspot.com/2017/10/is-haskell-right-language-for-teaching.html">Is Haskell the right language for teaching functional programming principles?&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>The point about this is that no one is in disagreement about how good a language Haskell is for doing real work. Rather, the question is about whether the principles that Haskell is built on get obscured by the fact it’s a large and complicated language.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.michaelburge.us/2017/10/15/haskell-typeclasses-vs-cpp-classes.html">Haskell typeclasses vs. C++ classes&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Classes from Object-oriented programming languages such as C++ allow types to declare a pre-selected list of overridable functions. Typeclasses in Haskell are a general-purpose way to write functions whose implementations change depending on the type of a parameter.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://chris-martin.org/2017/interfaces-and-records">Java interfaces map to Haskell records&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>In retrospect, my inclination to use typeclasses in inappropriate ways was a big problem in my earlier Haskell days. I made this mistake a lot: I thought Java interfaces mapped to Haskell typeclasses. But really, more often they map to Haskell records.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://programming.tobiasdammers.nl/blog/2017-10-17-object-oriented-haskell">Object-oriented Haskell&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>I will show you how it is possible to write object-oriented code in Haskell using only a minimal set of utility code, and without giving up much of Haskell’s pure functional benefits.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.parsonsmatt.org/2017/10/11/type_safety_back_and_forth.html">Type safety back and forth&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>If pushing responsibility forward means accepting whatever parameters and having the caller of the code handle possibility of failure, then pushing it back is going to mean we accept stricter parameters that we can’t fail with.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://robots.thoughtbot.com/modeling-with-union-types">Modeling with union types&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Tagged unions are a killer language feature as they allow you to expressively model problem domains and avoid some of the pitfalls of relying entirely on primitives.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://jml.io/2017/10/spake2-how-haskell-helped.html">SPAKE2 in Haskell: How Haskell helped&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>It can feel a bit like a small child trying to push a star-shaped thing through the square-shaped hole. The types are the holes that guide how you insert code and values.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.tweag.io/posts/2017-10-19-ghc-devops-group.html">Announcing the GHC DevOps Group&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>We need a solid, reliable, well-engineered, predictable GHC toolchain; and we need to achieve that without compromising GHC innovation and vitality.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2>Jobs&lt;/h2>
+&lt;p>Are you looking to hire a Haskell developer?
+If so, &lt;a href="https://haskellweekly.news/advertising.html">advertise with us&lt;/a>!&lt;/p>
+&lt;h2>In brief&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.reddit.com/r/haskell/comments/776f2w/i_created_a_tool_to_specify_arbitrary_programming/">ALGT2: A tool to specify arbitrary programming languages&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://maxow.github.io/posts/computational-geometry-set-operations-on-polytopes.html">Computational geometry: Set operations on polytopes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://qfpl.io/posts/reflex/widget/growing-a-date-picker-2/">Growing a date picker in Reflex: Part 2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://skillsmatter.com/conferences/8522-haskell-exchange-2017#skillscasts">Haskell eXchange 2017 videos&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.reddit.com/r/haskell/comments/76iti2/ann_hsinit_tool_for_creating_batteriesincluded/">hs-init: A tool for creating batteries-included Haskell projects&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=2xyZeovFqCA&amp;amp;list=PL7DZ7q3nEWhx5bgmpAgqArzrh0pL-tc3P">LambdaConf 2017 videos&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.reddit.com/r/haskell/comments/76fm11/orderedindexed_graphs_with_lenses_looking_for/">Ordered-indexed graphs with lenses: Looking for feedback&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Package of the week&lt;/h2>
+&lt;p>This week’s package of the week is &lt;a href="https://www.stackage.org/lts-9.9/package/tagged-0.8.5">tagged&lt;/a>,
+a library providing phantom types to avoid unsafely passing dummy arguments.&lt;/p>
+&lt;h2>Call for participation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/JackKiefer/herms/issues/39">herms: Convert oven temperatures in recipe directions between Fahrenheit and Celsius&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/vrom911/hs-init/issues/27">hs-init: Update &lt;code>b&lt;/code> script for 8.2.1 ghc version&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/haskell-servant/servant-auth/issues/64">servant-auth: Prepare to be official&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/ivanperez-keera/Yampa/issues/28">Yampa: maybeToEvent not exported&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Looking for something to contribute to?
+Check out &lt;a href="https://github.com/search?l=Haskell&amp;amp;type=Issues&amp;amp;state=open&amp;amp;q=label%3Ahacktoberfest">the Hacktoberfest issues&lt;/a> on GitHub!&lt;/p>
+&lt;h2>Events&lt;/h2>
+&lt;ul>
+&lt;li>October 19: &lt;a href="https://www.meetup.com/San-Diego-Functional-Programmers/events/243077781/">San Diego Functional Programmers: October meetup: Intro to functional programming&lt;/a>&lt;/li>
+&lt;li>October 21: &lt;a href="https://www.meetup.com/SEAHUG/events/243434593/">Seattle Area Haskell Users’ Group: General discussion&lt;/a>&lt;/li>
+&lt;li>October 22: &lt;a href="https://www.meetup.com/Berlin-Functional-Programming-Group/events/244227642/">Berlin Functional Programming Group: Haskell Programming From First Principles study group&lt;/a>&lt;/li>
+&lt;li>October 23: &lt;a href="https://www.meetup.com/Functional-Programming-Montpellier/events/244080708/">Functional Programming Montpellier: Second functional programming meetup&lt;/a>&lt;/li>
+&lt;li>October 24: &lt;a href="https://www.meetup.com/haskell-paris/events/244053318/">Haskell Paris: Meetup Haskell mensuel&lt;/a>&lt;/li>
+&lt;li>October 25: &lt;a href="https://www.meetup.com/NY-Haskell/events/244117814/">New York Haskell Users Group: Squeal: A deep embedding of SQL in Haskell&lt;/a>&lt;/li>
+&lt;li>October 25: &lt;a href="https://www.meetup.com/Quito-Lambda-Meetup/events/238781838/">Quito Lambda: Más allá de las funciones puras, cómo Haskell lo resolvió&lt;/a>&lt;/li>
+&lt;li>October 26: &lt;a href="https://www.meetup.com/Melbourne-Haskell-Users-Group/events/244014417/">Melbourne Haskell Users Group: Haskell Halloween “Haskoween”: Lightning talks&lt;/a>&lt;/li>
+&lt;/ul>
+</description>
+</item>
+<item>
+  <guid>https://haskellweekly.news/issues/76.html</guid>
+  <title>Issue 76</title>
+  <link>https://haskellweekly.news/issues/76.html</link>
+  <pubDate>Thu, 12 Oct 2017 00:00:00 GMT</pubDate>
+  <description>&lt;p>Welcome to another issue of Haskell Weekly!
+Haskell is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.&lt;/p>
+&lt;p>Want to see something featured in Haskell Weekly?
+We love contributions!
+Tweet us at &lt;a href="https://twitter.com/haskellweekly">@HaskellWeekly&lt;/a> or &lt;a href="https://github.com/haskellweekly/haskellweekly.github.io">open a pull request&lt;/a>.&lt;/p>
+&lt;h2>Featured&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://www.stackbuilders.com/news/scalendar-time-management-in-haskell">scalendar: Time management in Haskell&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>This is the kind of problem that scalendar approaches — namely, managing availability over time for a set of identifiers (which represent resources), where the availability varies according to the state of a calendar that is affected by the history of reservations previously performed.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://bitemyapp.com/posts/2017-10-06-persistent-ecto-activerecord.html">Comparing Persistent with Ecto and ActiveRecord&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>I saw this article comparing Ecto and ActiveRecord. I thought I would track alongside that post and show what the equivalent code looks like if you’re using the Persistent Haskell library.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.haskellforall.com/2017/10/why-do-our-programs-need-to-read-input.html">Why do our programs need to read input and write output?&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>I wrote this post to challenge basic assumptions that people make about software architecture, which is why I chose a deliberately provocative title. You might not agree with all the points that I am about to make, but I do hope that this post changes the way that you think about programming.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://blog.poisson.chat/posts/2017-10-08-aeson-perf.html">Performance debugging in Aeson&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Ideally, whether we are using Template Haskell or Generics, we would like automatically derived code to be as fast as code we could have written and optimized manually. To understand what it takes to achieve such a result, I’ve recently started to work on the performance of Aeson, a JSON library in Haskell.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://brianmckenna.org/blog/tool_subsumption">Tool subsumption and silver bullets&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>We gain some useful things when we have referential transparency. And what do we lose? When I started doing functional programming, I assumed there must be some trade-offs, because trade-offs in programming are so common.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://deliquus.com/posts/2017-10-02-using-servant-to-orchestrate-lxd-containers.html">Using Servant to orchestrate LXD containers&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>This blog post explains how the Servant libraries are used to create a non-trivial type-safe HTTP/WebSockets client and discusses the efforts involved.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://mmhaskell.com/blog/2017/10/9/serve-it-up-with-servant">Serve it up with Servant&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>We’ll construct our API using the Servant library. Servant involves some advanced type level constructs, so there’s a lot to wrap your head around. There are definitely simpler approaches to HTTP servers than what Servant uses. But I’ve found that the power Servant gives us is well worth the effort.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/suhr/wcpl/blob/f70ea536e0f82d347307677ca4a7bf08f6b9155e/intro.md#readme">Writing a concatenative programming language&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Yes, this is a yet another “write you a language”. But this one is a little bit different. First, the language I’m going to implement is rather different from languages you used to see in such tutorials. Second, I have little experience in creating programming languages, so a lot of things will be new to me as well.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://r6.ca/blog/20171010T001746Z.html">Functor-oriented programming&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>With functor oriented programming, one divides data structures into layers of functors that, when composed together, form the data structures that your program operates on. Instead of writing transformations between data structures, one writes natural transformations between functors.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://debugsteven.github.io/if-then-else-case-expressions-and-guards-oh-my/">if-then-else, case expressions, and guards! Oh my!&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Haskell is quite a bit different when it comes to control structures for directing your program flow. In this post, I want to focus on the difference between if-then-else, case expressions, and guards.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2>Jobs&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://stackoverflow.com/jobs/156727/haskell-full-stack-developer-scrive">Haskell Full Stack Developer&lt;/a> (ad)&lt;/p>
+&lt;blockquote>
+&lt;p>We need someone with a strong Haskell background to help maintain and develop new features across our PostgreSQL-Haskell-React stack. We have a stable backend written in Haskell, that interfaces with PostgreSQL using hpqtypes, with a dash of Java for manipulating PDFs. Scrive is the Nordic market-leading provider of electronic signatures.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2>In brief&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://oleg.fi/gists/posts/2017-10-05-monoidal-vs-traversing.html">&lt;code>Monoidal&lt;/code> vs &lt;code>Traversing&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://mail.haskell.org/pipermail/haskell-cafe/2017-October/127970.html">Call for contributions: Haskell Communities and Activities Report&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=Txf7swrcLYs">Edward Kmett: Monoidal parsing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.qfpl.io/posts/reflex/widgets/growing-a-date-picker-1/">Growing a date picker in Reflex: Part 1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://blog.functorial.com/posts/2017-10-08-HOAS-CCCs.html">Higher-order abstract syntax for Cartesian closed categories&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://blogs.intevation.de/wilde/haskell/monads/">Making your brain tingle: Explaining monads&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/ocharles/micro-ci">micro-ci: A tiny CI server built around GitHub and Nix&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://ebencowley.com/resources/docs/articles/monadsInMinutes.html">Monads in minutes: What are monads and why are they used?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://blog.sumtypeofway.com/recursion-schemes-part-iv-time-is-of-the-essence/">Recursion schemes, part IV: Time is of the essence&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://reasonablypolymorphic.com/blog/recursion-schemes">Review: Bananas, Lenses, Envelopes and Barbed Wire&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://atom.io/packages/haskell-scry">Scry: An Atom package for de-emphasizing qualified identifiers&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.com/@zw3rk/what-is-new-in-cross-compiling-haskell-976cd4752bb9">What is new in cross compiling Haskell&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Package of the week&lt;/h2>
+&lt;p>This week’s package of the week is &lt;a href="https://www.stackage.org/lts-9.6/package/hasql-0.19.18.2">hasql&lt;/a>,
+an efficient PostgreSQL driver and a flexible mapping API.&lt;/p>
+&lt;h2>Call for participation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/ucsd-progsys/liquidhaskell/issues/1123">liquidhaskell: Importing infix annotations&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/emhoracek/smooch/issues/43">smooch: Make it easier to test set uploads in development&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/commercialhaskell/stack/issues/3479">stack: Nix integration should use GC roots&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Events&lt;/h2>
+&lt;ul>
+&lt;li>October 12 – 13: &lt;a href="https://www.meetup.com/skillsmatter/events/241083527/">Haskell eXchange 2017&lt;/a>&lt;/li>
+&lt;li>October 15: &lt;a href="https://www.meetup.com/Berlin-Functional-Programming-Group/events/244033083/">Berlin Functional Programming Group&lt;/a>&lt;/li>
+&lt;li>October 16: &lt;a href="https://www.meetup.com/Vancouver-Functional-Programmers/events/243510247/">Vancouver Functional Programmers&lt;/a>&lt;/li>
+&lt;li>October 17: &lt;a href="https://www.meetup.com/ATX-Haskell/events/243783455/">Austin Haskell Users Group&lt;/a>&lt;/li>
+&lt;li>October 18: &lt;a href="https://www.meetup.com/Atlanta-Functional-Programming-Meetup/events/244126614/">Atlanta Functional Programming Meetup&lt;/a>&lt;/li>
+&lt;li>October 19: &lt;a href="https://www.meetup.com/San-Diego-Functional-Programmers/events/243077781/">San Diego Functional Programmers&lt;/a>&lt;/li>
+&lt;li>October 26 – 28: &lt;a href="https://hal2017.softbase.org">Haskell in Leipzig 2017&lt;/a>&lt;/li>
+&lt;/ul>
+</description>
+</item>
+<item>
+  <guid>https://haskellweekly.news/issues/75.html</guid>
+  <title>Issue 75</title>
+  <link>https://haskellweekly.news/issues/75.html</link>
+  <pubDate>Thu, 05 Oct 2017 00:00:00 GMT</pubDate>
+  <description>&lt;p>Welcome to another issue of Haskell Weekly!
+Haskell is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.&lt;/p>
+&lt;p>Want to see something featured in Haskell Weekly?
+We love contributions!
+Tweet us at &lt;a href="https://twitter.com/haskellweekly">@HaskellWeekly&lt;/a> or &lt;a href="https://github.com/haskellweekly/haskellweekly.github.io">open a pull request&lt;/a>.&lt;/p>
+&lt;h2>Featured&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://mail.haskell.org/pipermail/ghc-devs/2017-October/014777.html">GHC 8.2.2 release candidate 1&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>The GHC team is very pleased to announce the first candidate of the 8.2.2 release of the Glasgow Haskell Compiler. This is the first of two release candidates leading up the final 8.2.2 release.&lt;/p>
+&lt;/blockquote>
+&lt;p>Editor’s note: Use &lt;a href="https://gist.github.com/tfausak/640a1b27252bfce33f1f2229d39781f5/8f70d7ccc38ee5854f7c8dfe19aea3c1be581a03">this &lt;code>stack.yaml&lt;/code>&lt;/a> to easily test GHC 8.2.2-rc1 with Stack.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://tech.frontrowed.com/2017/09/28/benching-free/">A tale of two monads: Free vs MTL&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Much has been said about the benefits of &lt;code>Free&lt;/code> monads. The idea of expressing computation as a data type is very powerful. Separating interpretation from representation gives us a lot of freedom, but what are its costs?&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.reddit.com/r/haskell/comments/73e7l3/i_made_bartosz_milewskis_book_category_theory_for/">“Category Theory for Programmers” PDF&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>I took it upon myself to try and convert this work into a PDF, and with his permission, so I have! I scraped the blog, converted it to LaTeX using Pandoc, and manually tweaked a whole bunch of things. The result is one beautifully-typeset PDF, if I say so myself.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://yager.io/CPU/CPU1.html">Building a CPU with Haskell&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>The fact that we’re writing this CPU in Haskell instead of in an HDL like Verilog means that there will be substantial stylistic differences from how CPUs are normally written. However, almost all of these differences make it vastly simpler and faster to write hardware.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://teh.id.au/posts/2017/10/03/announcing-hgrep/index.html">Announcing &lt;code>hgrep&lt;/code>&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>My long weekend project is (arguably) useful enough to share, so I’ve published it. It’s called &lt;code>hgrep&lt;/code>, and it uses &lt;code>ghc-exactprint&lt;/code> and regular expressions to search Haskell source code from the command line.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://blogs.intevation.de/wilde/haskell/functions-as-functors/">Making your brain tingle: Functions as functors&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>One area which makes my brain tingle on a regular basis is the combination of Haskell and category theory. The topic of this blog post is one simple example: I’m going to show a way of thinking of functions as functors which, at least to me, makes it intuitive.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://blog.ploeh.dk/2017/10/04/from-design-patterns-to-category-theory/">From design patterns to category theory&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Category theory generalizes some intuitive relations, such as how numbers combine. Instead of discussing numbers, however, category theory considers abstract “objects”. This field of mathematics explore how object relate and compose.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://argumatronic.com/posts/2017-09-27-haskell-is-useless.html">Haskell people&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Haskell is, at its core, a coherent, understandable thing. Many other languages have an ad hoc character to them — they were made to make things. They made design decisions based on what seemed useful and pragmatic to their makers and intended audiences.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2>Jobs&lt;/h2>
+&lt;p>Sadly we aren’t currently aware of any Haskell job openings.
+Are you looking to hire a Haskell developer?
+If so, consider &lt;a href="https://haskellweekly.news/advertising.html">advertising with us&lt;/a>!&lt;/p>
+&lt;h2>In brief&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://gist.github.com/vimuel/ee9b054b42bbc2ed06992a323b7dfbd8/c59d01dcf7fd1dcc33a166b3d7b809eba3c75ef1">Catch-all considered harmful?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/hablapps/DontFearTheProfunctorOptics/blob/8ad20e680f28ba630f42da30c53664810ca114dc/Optics.md">Don’t fear the profunctor optics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=sT6VJkkhy0o">Haxl: A big hammer for concurrency&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.tweag.io/posts/2017-10-05-streaming2.html">How to compose streaming programs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.reddit.com/r/haskell/comments/7337fi/simple_textbased_drawing_dsl/">Simple text-based drawing DSL&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.qfpl.io/posts/reflex/basics/switching/">Switching [Reflex FRP tutorial]&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://mmhaskell.com/blog/2017/10/2/trouble-with-databases-persevere-with-persistent">Trouble with databases? Persevere with Persistent&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Package of the week&lt;/h2>
+&lt;p>This week’s package of the week is &lt;a href="https://hackage.haskell.org/package/ghcid-0.6.7">ghcid&lt;/a>,
+a bare bones IDE.
+It is a very simple Haskell development tool which shows you the errors in your project and updates them whenever you save.&lt;/p>
+&lt;h2>Call for participation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/barrucadu/dejafu/issues/131">dejafu: ThreadAction for threadDelay&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/thumphries/hgrep/issues/1">hgrep: Adjacent search results should be folded together&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/parsonsmatt/servant-persistent/issues/25">servant-persistent: Update to a GHC 8 LTS stackage&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Events&lt;/h2>
+&lt;ul>
+&lt;li>October 26 – October 28: &lt;a href="https://hal2017.softbase.org">Haskell in Leipzig 2017&lt;/a>&lt;/li>
+&lt;/ul>
+</description>
+</item>
+<item>
+  <guid>https://haskellweekly.news/issues/74.html</guid>
+  <title>Issue 74</title>
+  <link>https://haskellweekly.news/issues/74.html</link>
+  <pubDate>Thu, 28 Sep 2017 00:00:00 GMT</pubDate>
+  <description>&lt;p>Welcome to another issue of Haskell Weekly!
+Haskell is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.&lt;/p>
+&lt;p>Want to see something featured in Haskell Weekly?
+We love contributions!
+Tweet us at &lt;a href="https://twitter.com/haskellweekly">@HaskellWeekly&lt;/a> or &lt;a href="https://github.com/haskellweekly/haskellweekly.github.io">open a pull request&lt;/a>.&lt;/p>
+&lt;h2>Featured&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="http://tech.frontrowed.com/2017/09/22/aggregations/">Beautiful aggregations with Haskell&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Aggregating data is a common, tedious task. In imperative languages we often end up with a rat’s nest of mutable variables, nested loops and other awful constructs. In functional languages a naive implementation also results in spaghetti and usually less than ideal performance.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.tweag.io/posts/2017-09-27-array-package.html">Immutability and unboxing in array programming&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Well written code based on unboxed arrays and using the discussed pattern to create arrays by initializing a mutable version, which is subsequently frozen, can achieve performance comparable to low-level C code.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/jonascarpay/apecs/blob/63733dc7b894ea589c7bfecb1409c8ac7f0923b9/tutorials/GoingFast.md#readme">apecs tutorial: Making games fast&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>The reason for this tutorial is not that you need to know all of this in order to use apecs. For simple 2D games, apecs won’t be a bottleneck. Once you start worrying about 3D and render times however, that’s when you might need apecs to be fast, and this is how you do that.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.haskellforall.com/2017/09/type-driven-strictness.html">Type-driven strictness&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>How can we know when to be lazy or strict? We can use Dhall’s type system to guide whether or not we keep the accumulator strict. We already have access to the type of the accumulator for our loop, so we can define a function that tells us if our accumulator type is compact or not.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.parsonsmatt.org/2017/09/22/what_does_free_buy_us.html">What does &lt;code>Free&lt;/code> buy us?&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>To tame that complexity, we factored the “what to do next” back out into a new data type, this time called &lt;code>Free&lt;/code> instead of &lt;code>List&lt;/code>. &lt;code>Free&lt;/code> and &lt;code>List&lt;/code> are similar; and we can use &lt;code>Free&lt;/code> to write &lt;code>List&lt;/code> and other interesting data structures.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://markkarpov.com/post/free-monad-considered-harmful.html">Free monad considered harmful&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Of course the title is a click bait and I do not mean to be so categorical. Free monads do have their uses, but in most cases I’d think twice before committing to that style of programming because it’s somewhat tedious and inefficient.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://blog.qfpl.io/posts/reflex/basics/dom/">Working with the DOM&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>We’ll be building up pieces of a todo-list application along the way. It is probably becoming a cliche by now, but it is familiar to a lot of people and will give me something concrete to use while demonstrating some of the cooler things that &lt;code>reflex&lt;/code> provides as the series progresses.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://kcsongor.github.io/purescript-safe-printf/">Well-typed printfs cannot go wrong&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>The aim of this post is to show another way of achieving the same result, with tools that are available in PureScript — a strongly-typed functional language, with no dependent types.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.michaelburge.us/2017/09/27/delta-debugging-in-haskell.html">Debugging C with Haskell’s &lt;code>Divisible&lt;/code>&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>This article: Introduces the Delta Debugging technique; Implements a general-purpose delta-debugging tool; Uses Haskell’s FFI to control a C chess engine; Locates an error introduced into the chess engine.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/SimulaVR/Simula/blob/2d59a6d734fd2a8ace17d2a43a502af566035531/README.md#readme">Simula: A 3D window manager for Linux&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Mission: Facilitate a Linux future for VR &amp;amp; AR Desktop. In the short-run, this means allowing people to run 2D Linux apps with current generation headsets. In the long-run, this means allowing people to run Linux in standalone AR &amp;amp; VR HMDs.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2>Jobs&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://www.wrinkl.com/jobs/">Code Haskell. Build great things.&lt;/a> (ad)&lt;/p>
+&lt;blockquote>
+&lt;p>We’re Wrinkl, a well-funded startup working closely with Obsidian Systems to build a powerful new communications platform. We use Haskell on both the backend and the frontend (using GHCJS and Reflex). And we’re looking to hire Haskell developers, preferably in the Philly area or willing to relocate to Philly. Women and minorities strongly encouraged to apply.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2>In brief&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://bitemyapp.com//posts/2017-09-23-please-stop-using-typed-holes.html">Alternatives to typed holes for talking to your compiler&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://wickstrom.tech/programming/2017/09/24/automating-the-build-of-your-technical-presentation.html">Automating the build of your technical presentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pepeiborra.wordpress.com/2017/09/21/formlets-are-biapplicative/">Formlets are biapplicative&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://mmhaskell.com/blog/2017/9/25/grenade-dependently-typed-neural-networks">Grenade! Dependently typed neural networks&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/TerrorJack/nodejs-interop/blob/346c2b4221a569974d9844d297c89cdf7877c584/README.md#readme">nodejs-interop&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.reddit.com/r/haskell/comments/72gc7n/rust_has_safety_features_less_room_for_bugs_yet/">Rust has safety features, yet when we talk about safety in Haskell we’re not talking about the same kind of safety&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.reddit.com/r/haskell/comments/72smtp/what_library_do_i_use_to_do_x/">What library do I use to do &lt;em>X&lt;/em>?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://blog.vmchale.com/article/why-lenses-work">Why lenses work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.com/@wireapp/wire-server-code-now-100-open-source-the-journey-continues-88e24164309c">Wire server code now 100% open source: The journey continues&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Package of the week&lt;/h2>
+&lt;p>This week’s package of the week is &lt;a href="https://hackage.haskell.org/package/tree-diff-0">tree-diff&lt;/a>,
+a library for diffing expression trees.
+It also provides a way to diff arbitrary data types using &lt;code>Generic&lt;/code> helpers.&lt;/p>
+&lt;h2>Call for participation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/purebred-mua/purebred/issues/67">purebred: Refactor acceptance test code&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/commercialhaskell/stack/issues/3454">stack: stack script should allow setting ghc-options&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Events&lt;/h2>
+&lt;p>Unfortunately we don’t know of any Haskell events.
+Do you know of an event that Haskell users would enjoy?
+Let us know about it by emailing &lt;a href="mailto:info@haskellweekly.news">info@haskellweekly.news&lt;/a>!&lt;/p>
+</description>
+</item>
+<item>
+  <guid>https://haskellweekly.news/issues/73.html</guid>
+  <title>Issue 73</title>
+  <link>https://haskellweekly.news/issues/73.html</link>
+  <pubDate>Thu, 21 Sep 2017 00:00:00 GMT</pubDate>
+  <description>&lt;p>Welcome to another issue of Haskell Weekly!
+Haskell is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.&lt;/p>
+&lt;p>Want to see something featured in Haskell Weekly?
+We love contributions!
+Tweet us at &lt;a href="https://twitter.com/haskellweekly">@HaskellWeekly&lt;/a> or &lt;a href="https://github.com/haskellweekly/haskellweekly.github.io">open a pull request&lt;/a>.&lt;/p>
+&lt;h2>Featured&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://blog.qfpl.io/posts/reflex/basics/introduction/">An introduction to Reflex&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>This is a series of posts aimed at getting people started with Functional Reactive Programming using the &lt;code>reflex&lt;/code> library.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://deliquus.com/posts/2017-09-14-haskey-user-defined-schemas-and-monad-transformers.html">Haskey: User-defined schemas, monad transformers and future work&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>In this blog post we present the features we’ve added to Haskey during the last weeks of the Summer of Haskell project. These features include user-defined schemas, multi-table support and a monad transformer that supports Haskey transactions.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://neilmitchell.blogspot.com/2017/09/existential-serialisation.html">Existential serialisation&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Here we have a constructor Foo which contains a value. We don’t statically know the type of the contained value, but we do know it has the type classes &lt;code>Typeable&lt;/code> (so we can at runtime switch on its type) and &lt;code>Binary&lt;/code> (so we can serialise it). But how can we deserialise it?&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://summer.haskell.org/news/2017-09-15-final-results.html">Final results for 2017&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Now, let’s talk about the past summer. We are extremely pleased that many students were able to complete their projects successfully. Other students were not able to meet the goals they set initially, but despite that the students were still able to make valuable and impressive contributions to both the projects and the ecosystem as a whole.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.fpcomplete.com/blog/2017/09/cryptographic-hashing-haskell">Cryptographic hashing in Haskell&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Seeing how all the pieces fit together is difficult from just the API docs, especially understanding where an explicit type signature will be necessary. This post will give a quick overview of the pieces you’ll want to be interacting with simple, runnable examples.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.tweag.io/posts/2017-09-15-inline-java-tutorial.html">Java from Haskell: A tutorial&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>In celebration of the recently released &lt;code>inline-java-0.7.0&lt;/code>, this post is a tutorial on how to use it all. We cover the marshalling of values between Haskell and Java and how we leverage the type checker to ensure that neither sides disagree on what types arguments and return values should have.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.well-typed.com/blog/2017/09/visualize-cbn/">Visualizing lazy evaluation&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>In order to help us design these courses, we developed a tool called &lt;code>visualize-cbn&lt;/code>. It is a simple interpreter for a mini Haskell-like language which outputs the state of the program at every step in a human readable format.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://deque.blog/2017/09/20/data-structure-into-types/">Transforming data structures into types: An introduction to dependent typing and its benefits&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Today’s post is not a extensive show-off of the capabilities of Idris. Instead, it is inspired from a real and recent use case, in which I wish I had a dependently typed language to support me.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/jonascarpay/apecs/blob/d06d514671c51daa5c4aefb9313a1f6660cf54aa/tutorials/RTS.md#readme">&lt;code>apecs&lt;/code> tutorial: An RTS-like game&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>In this tutorial we’ll take a look at how to write a simple RTS-like game using &lt;code>apecs&lt;/code>. We’ll be using SDL2 for graphics. Don’t worry if you don’t know SDL2, neither do I.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://medium.com/@fintan.halpenny/free-me-exploring-the-free-data-type-c863499a82f8">Free me: Exploring the Free data type&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>What I wanted to do for myself was explore Free from first principles and implement some core functionality from the ground up to see how things work under the hood. This post is about what happened when I did this.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2>Jobs&lt;/h2>
+&lt;p>Sadly we aren’t currently aware of any Haskell job openings.
+Are you looking to hire a Haskell developer?
+If so, consider &lt;a href="https://haskellweekly.news/advertising.html">advertising with us&lt;/a>!&lt;/p>
+&lt;h2>In brief&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://mmhaskell.com/blog/2017/9/18/checking-its-all-in-place-placeholders-and-dependent-types">Checking it’s all in place: Placeholders and dependent types&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=79zzgL75K8Q&amp;amp;list=PLNoHgLVTxtaoolkQo4hLy4ZsA1prUJ51m">Compose Conference 2017&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.futurelearn.com/courses/functional-programming-haskell">Functional programming in Haskell: Supercharge your coding&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://goc.vivint.com/problems/hm">Infernal types&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://haskell.fun/2017/09/17/making-google-tasks-better-part-2/">Making Google tasks better: Part 2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://neilmitchell.blogspot.co.uk/2017/09/shake-016-revised-rule-definitions.html">Shake 0.16: Revised rule definitions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Package of the week&lt;/h2>
+&lt;p>This week’s package of the week is &lt;a href="https://hackage.haskell.org/package/static-tensor-0.2.0.0">&lt;code>static-tensor&lt;/code>&lt;/a>,
+a library providing a toolkit for working with tensors of statically known size and element type.&lt;/p>
+&lt;h2>Call for participation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/purescript/purescript/issues/3083">purescript: purs ide: adding conflicting imports&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/parsonsmatt/servant-persistent/issues/18">servant-persistent: Parameterize the App type on the base monad&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/commercialhaskell/stack/issues/3442">stack: Windows: Substituted paths are not resolved correctly&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Events&lt;/h2>
+&lt;p>Unfortunately we don’t know of any Haskell events.
+Do you know of an event that Haskell users would enjoy?
+Let us know about it by emailing &lt;a href="mailto:info@haskellweekly.news">info@haskellweekly.news&lt;/a>!&lt;/p>
+</description>
+</item>
+<item>
+  <guid>https://haskellweekly.news/issues/72.html</guid>
+  <title>Issue 72</title>
+  <link>https://haskellweekly.news/issues/72.html</link>
+  <pubDate>Thu, 14 Sep 2017 00:00:00 GMT</pubDate>
+  <description>&lt;p>Welcome to another issue of Haskell Weekly!
+Haskell is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.&lt;/p>
+&lt;p>Want to see something featured in Haskell Weekly?
+We love contributions!
+Tweet us at &lt;a href="https://twitter.com/haskellweekly">@HaskellWeekly&lt;/a> or &lt;a href="https://github.com/haskellweekly/haskellweekly.github.io">open a pull request&lt;/a>.&lt;/p>
+&lt;h2>Featured&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/sjsyrek/haskell-study-startup">Haskell study startup&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Learning Haskell is a good idea, but you don’t have to do it alone. This repo brings together a number of resources for people who would like to start their own Haskell study groups but aren’t sure how to do it. Included here is advice for publicizing your group, guidelines for participants, a recommended schedule, and other resources.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://coldwa.st/e/blog/2017-09-09-Cabal-2-0.html">What’s new in Cabal 2.0: Improved &lt;code>new-build&lt;/code>, Backpack, foreign libraries and more!&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>A couple of weeks ago we’ve quietly released versions 2.0 of both Cabal and &lt;code>cabal-install&lt;/code> after approximately a year of development. The 2.0 release incorporates more than 1500 commits by 64 different contributors. This post serves as a formal release announcement and describes what’s new and improved in version 2.0.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://ghc.haskell.org/trac/ghc/wiki/Plugins/TypeChecker/RowTypes/Coxswain?version=5">Coxswain: A type checker plugin for row types&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>I’ve been recently developing a Coxswain library that defines row types and implements row unification. I think the Haskell community is hungry for row types, especially records and variants. This wiki page outlines the basic design and intended use of the library, use cases I envision, and my open questions.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.fpcomplete.com/blog/2017/09/all-about-strictness">All about strictness&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>This blog post was inspired by some questions around writing efficient Conduit code, so I’ll try to address some of that directly at the end. The concepts, though, are general, and will transfer to not only other streaming libraries, but non-streaming data libraries too.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://medium.com/fuzzy-sharp/migrating-to-postgres-2dc1519a6dc7">Migrating from RethinkDB to Postgres: An experience report&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>We switched from RethinkDB and ElasticSearch to Postgres, leaning heavily on Haskell in order to fill in some of the gaps quickly. The project was a success, and we’re very happy with the switch. Haskell has been invaluable for refactoring safely and confidently.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://medium.com/@saurabhnanda/benchmarks-fp-languages-libraries-for-front-end-development-a11af0542f7e">Benchmarks: GHCJS (Reflex, Miso) &amp;amp; Purescript (Pux, Thermite, Halogen)&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Once we were over the infamous Haskell learning curve, we began looking for functional programming, immutability, and types everywhere! Given that one-third of our code runs in the browser, it is only a matter of time before we make the switch to typed FP for front end development as well. But, which language/framework/library should we use?&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.joachim-breitner.de/blog/730-Less_parentheses">Less parentheses&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Yesterday, at the Haskell Implementers Workshop 2017 in Oxford, I gave a lightning talk titled “syntactic musings”, where I presented three possibly useful syntactic features that one might want to add to a language like Haskell.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.morphism.tech/announcing-squeal/">Announcing Squeal&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>I’m very proud to announce Squeal, a new database library for Haskell. Squeal is the culmination of my Haskell experience for the last 4 years. It’s been a fun road and I’ve learned so much from so many friends and strangers in the community. So Squeal is dedicated to them.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://chrispenner.ca/posts/monadio-considered-harmful">&lt;code>MonadIO&lt;/code> considered harmful&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>What I’m going to talk about here is an alternative which provides most of the benefits with a very low barrier to entry: splitting up IO into granular monad type classes.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://fgaz.me/posts/2017-09-13-hsoc-cabal-new-build-status-update-1/">Last mile for &lt;code>cabal new-build&lt;/code>: First and last status update&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Time flies! The Haskell Summer of Code is over, and this is my first and last status update. Last in the HSoC, but not in the project, as you’ll see. My goal was to bring &lt;code>new-build&lt;/code> to a usable state, to eventually replace the old commands.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2>Jobs&lt;/h2>
+&lt;p>Sadly we aren’t currently aware of any Haskell job openings.
+Are you looking to hire a Haskell developer?
+If so, consider &lt;a href="https://haskellweekly.news/advertising.html">advertising with us&lt;/a>!&lt;/p>
+&lt;h2>In brief&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://www.nmattia.com/posts/2017-09-07-fully-functional-webapp.html">A fully functional, fully functional webapp&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.reddit.com/r/haskell/comments/6z9up7/a_media_player_in_fltkhs/">A media player in FLTKHS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.parsonsmatt.org/2017/09/13/debugging_types_a_stream_of_thought.html">Debugging types: A stream of thought&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://mmhaskell.com/blog/2017/9/11/deep-learning-and-deep-types-tensor-flow-and-dependent-types">Deep learning and deep types: Tensor flow and dependent types&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://languagengine.co/blog/differentiating-functional-programs/">Differentiating functional programs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/eckyputrady/haskell-scotty-realworld-example-app/blob/74cb5481422d6f01811562331db396e610c87959/README.md#readme">Exemplary Read World backend API built with Scotty&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/ChrisPenner/Firefly/blob/28c2f7e65881ad032ab340b409b7860bb8206d7a/README.md#readme">Firefly: A dead simple HTTP framework&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.functionalgeekery.com/episode-107-julie-moronuki/">Functional Geekery Episode 107: Julie Moronuki&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yi-editor.github.io/posts/2017-09-07-improving-on-vi-improved/">Improving on Vi Improved&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://deque.blog/2017/09/13/monoids-what-they-are-why-they-are-useful-and-what-they-teach-us-about-software/">Monoids: What they are, why they are useful, and what they teach us about software&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/owickstrom/neovim-ghci/blob/deed2a0a481a8a13b487ffde946f69da520d8284/README.md#readme">neovim-ghci: Interactive Haskell development using GHCi in Neovim&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://purescript.news/issues/1">PureScript News: Issue 1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/knupfer/type-of-html/blob/a80b400a3e79cd4f96a7367d38c8bfc2b94dd4c0/Readme.md#readme">Type of HTML: High performance, type safe HTML generation&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Package of the week&lt;/h2>
+&lt;p>This week’s package of the week is &lt;a href="https://hackage.haskell.org/package/thank-you-stars-0.1.0">thank-you-stars&lt;/a>,
+a command-line utility for starring the GitHub repositories of your dependencies.&lt;/p>
+&lt;h2>Call for participation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/elm-lang/elm-repl/issues/158">elm-repl: Command to “clean” the REPL output&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/typelead/eta/issues/505">eta: Improve code for &lt;code>get*()&lt;/code> series of methods for data constructors&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/purescript/purescript/issues/3067">purescript: Default method implementations&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Events&lt;/h2>
+&lt;ul>
+&lt;li>September 18: &lt;a href="https://workshops.vanfp.org/haskell/">Vancouver’s Haskell Workshop&lt;/a>&lt;/li>
+&lt;/ul>
+</description>
+</item>
+<item>
+  <guid>https://haskellweekly.news/issues/71.html</guid>
+  <title>Issue 71</title>
+  <link>https://haskellweekly.news/issues/71.html</link>
+  <pubDate>Thu, 07 Sep 2017 00:00:00 GMT</pubDate>
+  <description>&lt;p>Welcome to another issue of Haskell Weekly!
+Haskell is a safe, compiled, purely functional programming language with a fast, concurrent, garbage-collected runtime.
+This is a weekly summary of what’s going on in its community.&lt;/p>
+&lt;p>Want to see something featured in Haskell Weekly?
+We love contributions!
+Tweet us at &lt;a href="https://twitter.com/haskellweekly">@HaskellWeekly&lt;/a> or &lt;a href="https://github.com/haskellweekly/haskellweekly.github.io">open a pull request&lt;/a>.&lt;/p>
+&lt;h2>Featured&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://lettier.github.io/posts/2017-08-30-haskell-gtk-video-player.html">Let’s make a GTK video player with Haskell&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>We remade the application using the software libraries GTK+ and GStreamer. By using GTK+ and GStreamer, the application remains as portable as the Electron version. Movie Monad can now handle large video files and comes with all of the standard controls one would expect.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://bartoszmilewski.com/2017/09/06/monads-monoids-and-categories/">Monads, monoids, and categories&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>There is no good place to end a book on category theory. There’s always more to learn. Category theory is a vast subject. At the same time, it’s obvious that the same themes, concepts, and patterns keep showing up over and over again.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.tweag.io/posts/2017-09-06-hyperion.html">Tracking performance over the entire software lifecyle&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>In this post I’ll show you how to see the performance of your software project improve over the entire lifetime of the project. For that, you’ll need to systematically track and store benchmark results over time.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://rootmos.github.io/main/2017/08/31/combining-brick-and-haskeline.html">Combining Brick and Haskeline&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>I started to look for alternatives to rlwrap and settled on Brick for handling the terminal user interface and Haskeline for providing the command-line functionality. However, Haskeline needed some coaxing to play nice with Brick.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://reasonablypolymorphic.com/blog/modeling-music">Modeling music&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Inspired by my recent forays into learning more mathematics, I’ve had an (obvious) insight into how to learn things, and that’s to model them in systems I already understand. I’m pretty good at functional programming, so it seemed like a pretty reasonable approach.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.michaelburge.us/2017/09/01/how-to-use-graphviz-in-haskell.html">Visualizing graphs in Haskell&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Dependency graphs are everywhere in computing. This article will show how you how to: Construct a graph by reading folders and files from disk; Render the graph into a &lt;code>.dot&lt;/code> file; Render the &lt;code>.dot&lt;/code> file into an image.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://vadosware.io/post/static-binaries-for-haskell-a-convoluted-approach/">Static binaries for Haskell: A convoluted approach&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Today’s post isn’t about how easy it is to do this with Go, however, it’s actually about how easy it was (or wasn’t, I’ll let you decide) to do this with Haskell.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.parsonsmatt.org/overcoming-records/#/">Overcoming the record problem&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Records are, morally speaking, maps from strings to values, so let’s just do that. We’re going to dig into the highly unsafe and somewhat hilarious record library I wrote. Along the way, we’re going to learn about some neat type level tricks.&lt;/p>
+&lt;/blockquote>
+&lt;p>Editor’s note: Press &lt;code>s&lt;/code> to view speaker notes.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.athiemann.net/2017/08/31/mergesort.html">Type level merge sort&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>I guessed that the current type level insertion sort (which is O(n^2) in worst case complexity) was at fault. This turned out to be wrong, but I still implemented a more efficient merge sort at type level and would like to share the journey as it was quite fun.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://deque.blog/2017/09/04/list-monad-and-np-complexity/">How the list monad helped me better understand NP time complexity&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>This short post will show how a basic understanding of the list monad helped me (and can therefore help you as well) building an intuition on how a non-deterministic Turing machine behaves, and how you can get a feel of how it would be to program one such computer, thanks to Haskell.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2>Jobs&lt;/h2>
+&lt;p>Sadly we aren’t currently aware of any Haskell job openings.
+Are you looking to hire a Haskell developer?
+If so, consider &lt;a href="https://haskellweekly.news/advertising.html">advertising with us&lt;/a>!&lt;/p>
+&lt;h2>In brief&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://mmhaskell.com/blog/2017/9/4/deeper-still-convolutional-neural-networks">Deeper still: Convolutional neural networks&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.com/@bfil/just-enough-functional-programming-a0c4fd09c8f7">Just enough functional programming&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.com/@mickduprez/learning-me-a-haskell-for-my-own-good-c59eddb7f45a">Learning me a Haskell for my own good&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://alpmestan.com/posts/2017-09-06-quick-haskell-hacking-with-nix.html">Quick and minimal Haskell hacking with Nix&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.schoolofhaskell.com/user/dschalk/Websockets%20Game%20of%20Score">Websockets reactive Game of Score&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.com/@zw3rk/what-is-new-in-cross-compiling-haskell-6d86bc8d6aa3">What is new in cross compiling Haskell&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Package of the week&lt;/h2>
+&lt;p>This week’s package of the week is &lt;a href="https://hackage.haskell.org/package/dhall-1.6.0">Dhall&lt;/a>,
+an explicitly typed configuration language that is not Turing complete.
+Despite being Turing incomplete, Dhall is a real programming language with a type-checker and evaluator.&lt;/p>
+&lt;h2>Call for participation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/barrucadu/dejafu/issues/111">dejafu: STM actions should be undone in reverse order&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/haskell-lang/haskell-lang/issues/131">haskell-lang: “How to contribute” page&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/cdepillabout/highlight/issues/5">highlight: support utf8 regexes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/haskell-miso/miso/issues/281">miso: Snake&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Events&lt;/h2>
+&lt;ul>
+&lt;li>September 18: &lt;a href="https://workshops.vanfp.org/haskell/">Vancouver’s Haskell Workshop&lt;/a>&lt;/li>
+&lt;/ul>
+</description>
+</item>
+
+  </channel>
+</rss>
